@@ -1,0 +1,94 @@
+.my__control-nav {
+    background: #F1F1F1;
+    width: 508px;
+}
+.bg__pink{
+     background: #FEEAE9;
+}
+.my__btn {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    width: 168px;
+    height: 52px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.my__btn:hover {
+    color: #FFF;
+}
+.input__groph input {
+    width: 420px;
+    height: 50px;
+    border: 0;
+    border-radius: 15px;
+}
+.my__btn-black {
+    background: #000000;
+    border-radius: 6px;
+    width: 168px;
+    height: 52px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bg__yellow {
+    background: #FF9C35;
+}
+.bg__light-pink {
+    background: #FF589B;
+}
+.bg__blue {
+    background: #4289FF;
+}
+.my__btn:hover {
+        background: linear-gradient( #FF136F 99.0%, #FF589B 0.1%);
+}
+.my__btn-black:hover {
+        background: #000;
+        color: #FFF;
+}
+.shopping__section {
+    background: #F4F4F4;
+}
+.see__more-desing {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF9D00;
+    text-decoration: none;
+}
+.see__more-desing:hover {
+    color: #FF9D00;
+    text-decoration: underline;
+}
+.secribe__section-h {
+    height: 455px;
+}
+.font-size {
+    font-size: 20px;
+    color: gray;
+}
+@media (max-width:1200px) {
+    .my__control-nav {
+    width: 300px;
+    }
+}
+@media (max-width:768px) {
+    .my__control-nav {
+    width: 250px;
+    }
+    
+    .my__btn-black {
+        width: 160px;
+    }   
+}
+@media (max-width:625px) {
+    .my__control-nav {
+    width: 200px;
+    }
+}
+@media (max-width:500px) {
+    .search__bar {
+        display: none;
+    }
+}
